@@ -2,6 +2,8 @@
 name = "vrc_oscquery"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "A cross-platform rust implementation of OSCQuery for VRChat that *probably* works"
 
 [dependencies]
 tokio = { version = "1.48.0", features = ["full"] }
